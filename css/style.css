@@ -14,18 +14,29 @@ body {
 /* NAVBAR */
 #navbar {
     overflow: hidden;
-    background-color:white;
+    background-color: white;
+    box-shadow: 0px 1px 6px black;
     font-family:'Poppins';
     height:50px;
+    z-index: 3;
+}
+
+#navbar > .logo {
+    float:left;
+    font-size:16px;
+    padding-top:12px;
+    padding-left:10px;
 }
 
 #navbar a {
-    float: left;
+    float:right;
     display: block;
     color: black;
     text-align: center;
-    padding: 14px;
+    padding-right:20px;
     text-decoration: none;
+    font-size:13px;
+    padding-top:20px;
 }
 
 .content {
@@ -159,14 +170,18 @@ body {
 .col-img3 {
     width: 34%;
     height: 350px;
-    color: white;
-    font-size: 20px;
     text-align: center;
-    padding-top: 170px;
-    font-family: 'Poppins';
-    font-weight: 100;
-    letter-spacing: 3px;
+}
 
+.col-img1 > p,
+.col-img2 > p,
+.col-img3 > p {
+    font-size:15px;
+    letter-spacing: 3px;
+    padding-top: 170px;
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 100;
 }
 
 .col-img1 {
@@ -230,11 +245,12 @@ FOOTER {
     margin-right: auto;
     text-align: center;
     background-color:#f2f2f2;
+    padding:10px;
 }
 
 footer>p {
     margin-top: 30px;
-    width:7       0%;
+    width:70%;
 }
 
 footer>h3 {
@@ -245,4 +261,8 @@ footer>h3 {
 .copy {
     font-size: 10px;
     padding-top: 10px;
+}
+
+.socials{
+    padding-top:20px;
 }
