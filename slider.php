@@ -1,22 +1,11 @@
-<div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <img src="images/cairo.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/qingdao.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="images/wyoming.jpg" style="width:100%">
-    </div>
-    </div>
-  
-
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
+<div class="container">
+        <div id="slides">
+          <img src="images/cairo.jpg" alt="">
+          <img src="images/qingdao.jpg" alt="">
+          <img src="images/wyoming.jpg" alt="">
+          
+          <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+          <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+     
+        </div>
+      </div>
