@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.vide{
+    height:50px;
+}
+
+/* NAVBAR */
+#navbar {
+    overflow: hidden;
+    background-color:white;
+    font-family:'Poppins';
+    height:50px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+
+/*SLIDER*/
+
+
+* {
+    box-sizing: border-box
+}
+
+
+.slideshow-container {
+    width: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+
+
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: red;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*VOYAGEZ EN*/
+
+
+.voyagez-en {
+    background-color: white;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+/*DESTINATIONS COLONNES*/
+
+
+.destinations-col {
+    display: flex;
+    width: 100%;
+
+}
+
+.col-img1,
+.col-img2,
+.col-img3 {
+    width: 34%;
+    height: 350px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 170px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+
+.col-img1 {
+    background-image: url('images/lesotho.jpg');
+    background-size: cover;
+}
+
+.col-img2 {
+    background-image: url('images/ny.jpg');
+    background-size: cover;
+}
+
+.col-img3 {
+    background-image: url('images/osaka.jpg');
+    background-size: cover;
+}
+
+
+/*EXPERIENCES*/
+
+.exp {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.exp>h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*FOOTER*/
+
+.footer-3 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.col1,
+.col2,
+.col3 {
+    margin-top: 30px;
+}
+
+.col1>img,
+.col2>img,
+.col3>img {
+    margin-bottom: 30px;
+}
+
+FOOTER {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:#f2f2f2;
+}
+
+footer>p {
+    margin-top: 30px;
+    width:7       0%;
+}
+
+footer>h3 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.copy {
+    font-size: 10px;
+    padding-top: 10px;
+}
