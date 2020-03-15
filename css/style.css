@@ -185,17 +185,17 @@ body {
 }
 
 .col-img1 {
-    background-image: url('images/lesotho.jpg');
+    background-image: url('../images/lesotho.jpg');
     background-size: cover;
 }
 
 .col-img2 {
-    background-image: url('images/ny.jpg');
+    background-image: url('../images/ny.jpg');
     background-size: cover;
 }
 
 .col-img3 {
-    background-image: url('images/osaka.jpg');
+    background-image: url('../images/osaka.jpg');
     background-size: cover;
 }
 
@@ -265,4 +265,8 @@ footer>h3 {
 
 .socials{
     padding-top:20px;
+}
+
+@media only screen and (min-width:768px){
+
 }
