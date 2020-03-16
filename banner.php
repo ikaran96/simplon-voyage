@@ -1,0 +1,1 @@
+<div class="banner">Découvrez le Wyoming</div>
