@@ -1,0 +1,114 @@
+.banner{
+    width:100%;
+    height:15vh;
+    background-image: url(../images/wyomingban.jpg);
+    background-size: cover;
+    background-position: top;
+    color:white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size:40px;
+    padding-top:20px;
+}
+
+section{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+
+.text-pic{
+    text-align: justify;
+    width:90%;
+    padding-left:20px;
+    margin-right:10px;
+}
+
+.flag{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+h4{
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 200;
+    margin-left:20px;
+    margin-top:30px;
+    padding-bottom:30px;
+}
+
+
+@media only screen and (min-width:768px){
+    .banner{
+        padding-top:90px;
+        font-size:60px;
+    }
+
+    section > h3{
+        font-size:40px;
+        margin-top:10px;
+        margin-left:50px;
+    }
+
+    .text-pic{
+        display:flex;
+        justify-content: space-evenly;
+        width:100%;
+        padding-left:0px;
+    margin-right:0px;
+    padding-bottom:30px;
+    }
+
+    .text-pic > p {
+        width: 40%;
+    }
+
+    .flag{
+        width:40%;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    h4{
+        font-size:40px;
+        margin-top:30px;
+        margin-left:50px;
+       
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .banner{
+        height:30vh;
+        font-size:90px;
+        padding-top:15vh;
+    }
+
+    h4{
+        font-size:80px;
+       
+
+    }
+
+    .text-pic{
+        justify-content: center;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .text-pic > p{
+        padding:30px;
+    }
+
+    .flag{
+        width:30%;
+        padding-bottom:100px;
+    }
+
+    
+
+}
