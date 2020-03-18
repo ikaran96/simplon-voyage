@@ -1,141 +1,142 @@
-body{
-    background-color:#E4E3E3;
-    
+body {
+    background-color: #E4E3E3;
+
 }
 
-.contact-map{
+.contact-map {
 
-    width:100%;
-  
+    width: 100%;
+
 }
-form{
-    background-color:white;
-    margin-top:50px;
-    margin-bottom:50px;
-    padding-top:30px;
-    padding-bottom:30px;
-    width:80%;
+
+form {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-   
+
 }
 
 h2 {
-    font-size:25px;
-    padding-bottom:20px;
-text-align: center;
-font-weight: 500;
-font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 input,
-textarea{
-    width:70%;
+textarea {
+    width: 70%;
     border: 2px solid #DA192A;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-::placeholder{
+::placeholder {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    padding-left:10px;
-    font-size:15px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
-.infos{
-    margin-top:10px;
-    margin-bottom:10px;
+.infos {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-button{
+button {
     background-color: white;
-    margin-top:30px;
-    padding:5px;
+    margin-top: 30px;
+    padding: 5px;
     border: 2px solid #DA192A;
 }
 
-button:hover{
-    background-color:#E4E3E3;
+button:hover {
+    background-color: #E4E3E3;
     border: 2px solid #E4E3E3;
-    color:#DA192A;
+    color: #DA192A;
 }
 
 
 
 
-.map{
+.map {
     background-color: white;
-    width:80%;
-    height:40vh;
-    margin-left:auto;
-    margin-right:auto;
+    width: 80%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-bottom:30PX;
-    padding-top:30px;
-    padding-bottom:30px;
+    margin-bottom: 30PX;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-iframe{
-    width:80%;
-    height:30vh;
-    margin-top:20px;
-    margin-bottom:20px;
+iframe {
+    width: 80%;
+    height: 30vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 
 
 }
 
-div{
-    text-align:center;
+div {
+    text-align: center;
 }
 
-.testi-title{
+.testi-title {
 
-    background-color:white;
-    width:90%;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size:20px;
-    padding-top:30px;
-    padding-bottom:30px;
-    font-weight:500;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
 
 }
 
 
 
-.testi > img{
-    width:200px;
-    border-radius:50%;
-    margin-bottom:30px;
-    margin-top:30px;
+.testi>img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-.testi{
-    text-align:center;
-    width:80%;
-        margin-left:auto;
-    margin-right:auto;
-    margin-bottom:20px;
-    margin-top:20px;
-    font-weight:300;
+.testi {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 300;
 }
 
-.testimonials{
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    font-family:'Open sans', Arial;
-    margin-bottom:20px;
+.testimonials {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open sans', Arial;
+    margin-bottom: 20px;
 }
 
-.name-age{
-    padding:10px;
-    font-weight:bolder;
+.name-age {
+    padding: 10px;
+    font-weight: bolder;
 }
 
 /* ----------------------------------------------
@@ -150,34 +151,37 @@ div{
  * animation slide-in-left
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-left {
+@-webkit-keyframes slide-in-left {
     0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  @keyframes slide-in-left {
+}
+
+@keyframes slide-in-left {
     0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  .slide-in-left {
-	-webkit-animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-left {
+    -webkit-animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -192,81 +196,76 @@ div{
  * animation slide-in-right
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-right {
+@-webkit-keyframes slide-in-right {
     0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  @keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  .slide-in-right {
-	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@media only screen and (min-width:768px){
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
 
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@media only screen and (min-width:768px) {
+
+    .map{
+        padding-bottom:60px;
+    }
+
+
+    .testimonials {
+        display: flex;
+    }
+
+    .testi {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .testi-title {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
     .contact-map{
         display:flex;
-        justify-content:space-around;
-        height:70vh;
-
+        justify-content: space-evenly;
     }
 
     .contact{
         width:50%;
-       
-    }
-
-    form{       
-        margin-top:50px;
-        height:50vh;
+        margin-left:10%;
 
     }
 
     .map{
         width:50%;
-        margin:50px;
-        height:50vh;
- 
-        
-        }
-
-        iframe{
-            height:40vh;
-        }
-
-
-
-
-        .testimonials{
-            display:flex;
-        }
-
-        .testi{
-            margin-right:5px;
-            margin-left:5px;
-        }
-
-        .testi-title{
-            font-size:30px;
-        }
-
+        margin-top:50px;
+        margin-right:10%;
+    }
 }
