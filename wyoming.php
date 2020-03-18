@@ -29,6 +29,7 @@
     include 'histoire.php';
     include 'gallery.php';
     include 'activites.php';
+    include 'carrousel.php';
     include 'footer.php';
      ?>
 
